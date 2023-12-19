@@ -1,4 +1,4 @@
-## YogaForn
+## YogaForm
 
 Yoga Admission Form is a simple Reactjs and Django project where a user can enroll himself in yoga batches.
 
