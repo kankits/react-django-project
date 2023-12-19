@@ -1,0 +1,51 @@
+/* YogaForm.css */
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+background-color: rgb(174, 222, 101,0.9);
+background: url('img.jpg') center center fixed; 
+background-size: cover;
+}
+
+.container {
+max-width: 1500px;
+margin: auto;
+box-shadow: 0 0 10px rgba(0, 0, 0.5, 0.5);
+padding: 20px;
+border-radius: 8px;
+background-color: #dfe7ee; /* Set a light background color */
+}
+
+.form-title {
+text-align: center;
+color: blueviolet; /* Set a primary color for the title */
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-control,
+.select-control,
+.date-control,
+.submit-btn {
+width: 100%;
+/* background-color: coral; Set a success color for the button */
+border: none;
+}
+
+.submit-btn{
+color: white;
+background-color: blueviolet;
+}
+
+.submit-btn:hover {
+background-color: cadetblue; /* Darken the color on hover */
+}
+
+  /* Add more styling as needed */
+  
